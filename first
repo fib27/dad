@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy 60th Birthday, Dad!</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(to right, #a8e063, #56ab2f);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      min-height: 100vh;
+      padding: 2rem;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+    .image-container {
+      margin: 2rem 0;
+      max-width: 600px;
+      width: 100%;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    }
+    .image-container img {
+      width: 100%;
+      display: block;
+    }
+    .message-box {
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 1.5rem;
+      border-radius: 12px;
+      max-width: 700px;
+      width: 100%;
+      text-align: center;
+      font-size: 1.2rem;
+      line-height: 1.6;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    }
+    footer {
+      margin-top: auto;
+      padding-top: 2rem;
+      font-size: 0.9rem;
+      opacity: 0.7;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Happy 60th Birthday, Dad!</h1>
+    <p>Celebrating an incredible man and a lifetime of memories</p>
+  </header>
+
+  <div class="image-container">
+    <!-- Replace the src below with your own image file -->
+    <img src="your-image.jpg" alt="Dad and me" />
+  </div>
+
+  <div class="message-box">
+    <!-- Paste your message below -->
+    <p>
+      Dear Dad, thank you for always being a guiding light in my life. Your love, wisdom, and laughter have shaped who I am today. Here's to 60 amazing years and many more to come. I love you.
+    </p>
+  </div>
+
+  <footer>
+    Made with love &copy; 2025
+  </footer>
+</body>
+</html>
